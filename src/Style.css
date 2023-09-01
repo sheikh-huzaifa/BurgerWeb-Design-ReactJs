@@ -1,0 +1,389 @@
+p{
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2vw !important;
+}
+
+h5{
+    font-family: 'Nunito', sans-serif !important;
+    font-weight: 300 !important;
+    font-size: 2vw !important;
+}
+
+h1{
+    font-family: 'Archivo', sans-serif !important;
+    width: 700 !important;
+    font-size: 5vw !important;
+    
+
+}
+
+@media only screen and ( min-width : 720px){
+    .big_img{
+        width: 100% !important;
+    }
+    .barry{
+        height: 30vh !important;
+    }
+
+   
+}
+
+
+
+h2{
+    font-family: 'Calistoga', cursive !important;
+
+}
+
+h3{
+    font-family: 'Archivo', sans-serif !important;
+    width: 500 !important;
+}
+
+a{
+    font-family: 'Poppins', sans-serif !important;
+    font-weight: 500 !important;
+    
+}
+
+button{
+    font-size: 1.2vw !important;
+    font-family: 'Montserrat', sans-serif !important;
+    font-weight: 800 !important;
+    letter-spacing: 2px !important;
+    width: 18vw !important;
+    height: 4vw !important;
+    border-radius: 33px !important;
+    border-width: 0vw !important;
+}
+
+.button_b:hover{
+    background-color: #981a0e !important;
+
+}
+
+
+
+.button_b{
+    background-color: #f64b3c !important;
+    color: white !important;
+    border-color: #f64b3c !important;
+
+}
+
+.button_w{
+    color: #f64b3c !important;
+    background-color: white !important;
+    border-width: 0ch !important;
+    
+}
+
+.button_w:hover{
+    background-color: rgb(198, 186, 186) !important;
+    border-color: none !important
+    ;
+    border-width: 0ch !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.big_img{
+    @media (min-width) {
+        width: 100% !important;
+    }
+}
+
+
+
+
+/* Custom */
+
+
+/* NavBar & Header */
+
+.nav_head{
+    background-image: url(Assects/1.png);
+    background-size: 100% !important;
+    height: auto !important;
+}
+
+.nav_head nav button{
+    
+    width: 50vw !important;
+}
+
+
+.nav_head nav button span{
+    font-size: 15vw !important;
+    color: #ffff !important;
+}
+
+.nav_head nav button span{
+    font-size: 15vw !important;
+    color: aliceblue !important;
+}
+
+
+
+
+.anchor li{
+    padding:0rem 3rem !important;
+}
+
+/* .anchor li a{
+    color: #ffff;
+} */
+
+.nav-link{
+    color: #ffff !important;
+}
+
+.nav_head header{
+    padding-top: 2rem !important;
+    margin-top: 2rem !important;
+}
+
+.nav_head header h1{
+    color: #ffff;
+
+    
+}
+
+.nav_head header h5{
+    color: #ffff;
+    margin-top: 2rem;
+    
+}
+
+
+
+/* Our Cheff */
+
+.our_chef{
+    background-image: url(Assects/2.png);
+    background-size: 100vw !important;
+    text-align: center !important;
+    padding-bottom: 2vh;
+    padding-top: 1vw;
+    
+}
+
+.our_chef h1{
+    color: #f64b3c;
+   
+    padding: 1vw 0vw;
+    
+}
+
+.our_chef p{
+    margin-top: 1vw;
+    color: #f64b3c;
+}
+
+
+
+.mask h1{
+    font-size: 2vw !important;
+    padding: 0rem !important;
+    padding-top: 0.5rem !important;
+    font-weight: 800 !important;
+}
+
+.mask h5{
+    font-size: 2vw !important;
+}
+
+.mask img{
+    width: 18vw !important;
+}
+
+/* Best Burger */
+
+.best_burger{
+    background-color: #f64b3c;
+    padding: 2vw;
+}
+
+.best_burger h1{
+    color: white;
+}
+
+.best_burger h5{
+    color: white;
+    font-size: 1.5vw !important;
+   
+}
+
+/* Big Burger */
+
+.big_burger{
+    background-image: url(Assects/3.png);
+    padding: 2vh !important;
+}
+
+.big_burger h1,h5{
+    color: #f64b3c !important;
+}
+
+.big_burger h5{
+    font-size: 1.5vw !important;
+    color: #f64b3c !important;
+}
+
+/* Statics */
+
+.statics{
+    background-color: #f64b3c !important;
+    padding: 2rem 0rem !important;
+    text-align: center !important;
+}
+
+.statics h1,p{
+    color: #ffff !important;
+}
+.statics p{
+    color: #ffff !important;
+    font-size: 1.5vw !important;
+}
+
+/* Popular Packages */
+
+.popular_package{
+    background-image: url(Assects/4.png);
+    
+}
+
+.cards{
+    border-radius: 8px !important;
+    border-width: 0vw !important;
+    
+}
+.cards img{
+    width: 20% !important;
+}
+
+.cards:hover{
+    background-color: rgb(215, 215, 215) !important;
+}
+
+.cards button:hover{
+    background-color: #981a0e !important;
+}
+
+
+.popular_package h1,h3,h5,p{
+    color: #f64b3c !important;
+    font-weight: 800 !important;
+}
+
+.popular_package p{
+    font-weight: 500 !important;
+    font-size: 1vw !important;
+}
+
+.popular_package h5{
+    font-weight: 900 !important;
+    color: #f64b3c !important;
+}
+
+.popular_package h1{
+    font-size: 4vw !important;
+}
+
+.popular_package button{
+    font-size: 1.2vw !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800 !important;
+    letter-spacing: 2px !important;
+    width: 15vw !important;
+    height: 3vw !important;
+    border-radius: 33px !important;
+    color: #ffff !important;
+    background-color: #f64b3c !important;
+    border-color: #f64b3c !important;
+    border-width: 0vw !important;
+}
+
+/* Barry Henderson */
+
+.barry{
+    background-image: url(Assects/5.png);
+    background-size: cover !important;
+    height: 80vh !important;
+    @media (max-width : 720px) {
+        height: 30vh !important;
+    }
+
+}
+
+.barry h3,h2{
+    color: #ffff;
+}
+
+.barry h3{
+    font-size: 2.5vw !important;
+}
+
+.barry h2{
+    font-size: 2.5vw !important;
+}
+
+/* Updates */
+
+.update{
+    background-image: url(Assects/6.png);
+    height: 90vh !important;
+    width: 100vw !important;
+}
+.update h1,h5{
+    color: #f64b3c;
+}
+
+.forum{
+    padding-left: 15vw;
+    width: 70vw !important;
+    height: 4vw !important;
+    
+    
+}
+.form-control{
+    border-radius: 33px 0px 0px 33px !important;
+}
+
+.forum button{
+    border-radius: 0px 33px 33px 0px !important;
+    height: auto !important;
+    font-size: 1.3vw !important;
+}
+
+/* Footer */
+
+footer{
+    background-image: url(Assects/footer.png);
+    height: 80vh !important;
+}
+
+footer h3,h5{
+    color: #ffff !important;
+}
+
+footer h5{
+    font-size: 1.5vw !important;
+}
+footer h5{
+    font-size: 1.5vw !important;
+}
